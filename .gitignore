@@ -1,0 +1,33 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# C++ builds
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.so
+*.a
+
+# Captured robot camera images
+camera/*.jpg
+camera/*.jpeg
+camera/*.png
+camera/*.partial
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# OS and editors
+.DS_Store
+.vscode/
+.idea/
